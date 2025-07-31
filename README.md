@@ -26,3 +26,7 @@ The historical data used as the basis for generating the synthetic datasets span
 - **H_Hà Nội**: river water level at Hà Nội (in centimeters)
 
 These variables were used to model the behavior of the water system, accounting for both natural inputs (such as inflows) and human demands (such as water usage and energy needs).
+
+<p align="center">
+  <img src="images/river_graph.png" alt="Basin schematic" width="300"/>
+</p>
