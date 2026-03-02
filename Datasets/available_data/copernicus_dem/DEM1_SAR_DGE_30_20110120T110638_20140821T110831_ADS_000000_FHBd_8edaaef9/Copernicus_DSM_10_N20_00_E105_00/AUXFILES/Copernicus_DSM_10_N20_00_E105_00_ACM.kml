@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <name>Accuracy Mask</name>
+    <Placemark>
+      <name>N20E105</name>
+        <Polygon>
+          <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>105,20 106,20 106,21 105,21 105,20</coordinates>
+          </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      <ExtendedData><Data name="Absolute Vertical Accuracy LE_90 [m] "><value>1.749</value></Data><Data name="Absolute Vertical Accuracy LE_68 [m]"><value>1.506</value></Data><Data name="No. of valid IceSat Points "><value>1812</value></Data></ExtendedData>
+    </Placemark>
+  </Folder>
+</kml>
