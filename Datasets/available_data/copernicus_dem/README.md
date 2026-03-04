@@ -78,6 +78,7 @@ Low-resolution quick-look versions of each layer (suffix `_QL`), useful for visu
 
 ## Tile Naming Convention
 
+Example:
 ```
 Copernicus_DSM_10_N41_00_E016_00
             │   │       │
@@ -103,9 +104,11 @@ with rasterio.open(dem_path) as src:
 ## License
 
 Copernicus DEM is provided free of charge under the **Copernicus Data Access Policy**.
-
 - Free for research, commercial, and operational use
 - See `INFO/eula_F.pdf` for full terms
+
+
+© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved
 
 ## Citation
 
