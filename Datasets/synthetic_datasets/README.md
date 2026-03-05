@@ -22,8 +22,8 @@ synthetic_data_2001_2012_<modification>.csv
 |---|---|---|
 | `minus_XX_inflow` | Inflow reduced by XX% | `minus_01_inflow` → −10% inflow |
 | `plus_XX_inflow` | Inflow increased by XX% | `plus_02_inflow` → +20% inflow |
-| `minus_XX_demand` | Demand reduced by XX% | `minus_01_demand` → −10% demand |
-| `plus_XX_demand` | Demand increased by XX% | `plus_02_demand` → +20% demand |
+| `minus_XX_demand` | Water demand reduced by XX% | `minus_01_demand` → −10% demand |
+| `plus_XX_demand` | Water demand increased by XX% | `plus_02_demand` → +20% demand |
 | `minus_XX_storage` | Storage reduced by XX% | `minus_01_storage` → −10% storage |
 | `plus_XX_storage` | Storage increased by XX% | `plus_015_storage` → +15% storage |
 | `minus_XX_in_minus_YY_storage` | Inflow −XX% **and** storage −YY% | Combined scenario |
@@ -52,9 +52,9 @@ All files share the same schema as `Historical_data.csv`:
 | `Yen_Bai` | m³/s |
 | `Vu_Quang` | m³/s |
 | `Evaporation` | mm/day |
-| `Demand` | m³/s |
+| `Water_Demand` | m³/s |
 | `H_Up (m)` | m |
-| `Energy_demand` | MWh |
+| `Energy_production` | MWh |
 | `Qtu_(m3/s)` | m³/s |
 | `Qbot_(m3/s)` | m³/s |
 | `Qspill_(m3/s)` | m³/s |

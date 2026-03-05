@@ -6,7 +6,7 @@ Daily time-series observations from stations across the Red River basin, provide
 
 | File | Variables | Stations | Period | Records |
 |------|-----------|----------|--------|---------|
-| `Historical_data.csv` | Dam operations, flows, water levels, energy/water demand | 5 | 1989–2022 | ~12,418 |
+| `Historical_data.csv` | Dam operations, flows, water levels, energy production, water demand | 5 | 1989–2022 | ~12,418 |
 | `Rainfall_mm.csv` | Daily precipitation (mm) | 20 | 2000–2020 | ~9,498 |
 | `Evaporation_mm.csv` | Daily evaporation (mm) | 6 | 2000–2020 | ~9,500 |
 | `Temperature_oC.csv` | Daily temperature (°C) | 4 | 2000–2020 | ~7,306 |
@@ -21,9 +21,9 @@ Daily time-series observations from stations across the Red River basin, provide
 | `Yen_Bai` | Flow rate of Thao River at Yen Bai station | m³/s |
 | `Vu_Quang` | Flow rate of Lo River at Vu Quang station | m³/s |
 | `Evaporation` | Evaporation rate | mm/day |
-| `Demand` | Agricultural water demand at Son Tay (irrigation + saline-intrusion control) | m³/s |
+| `Water_Demand` | Agricultural water demand at Son Tay (irrigation + saline-intrusion control) | m³/s |
 | `H_Up (m)` | Hoa Binh reservoir water level | m |
-| `Energy_demand` | Energy demand from the national grid (**weekly average** — see Confidentiality below) | MWh |
+| `Energy_production` | Electricity delivered from the Hòa Bình hydropower plant to the national grid (**weekly average** — see Confidentiality below) | MWh |
 | `Qtu_(m3/s)` | Turbine discharge | m³/s |
 | `Qbot_(m3/s)` | Bottom outlet discharge | m³/s |
 | `Qspill_(m3/s)` | Spillway discharge | m³/s |
@@ -103,7 +103,7 @@ Daily time-series observations from stations across the Red River basin, provide
 
 ## Confidentiality
 
-The `Energy_demand` column in `Historical_data.csv` contains **weekly averages** instead of true daily values. This masking was applied to protect information deemed sensitive by the Vietnamese authorities.
+The `Energy_production` column in `Historical_data.csv` contains **weekly averages** instead of true daily values. Due to energy security requirements, the detailed daily data has been replaced with aggregated weekly averages. This ensures compliance with sensitivity constraints imposed by the Vietnamese authorities while maintaining an appropriate level of transparency in the publicly released information.
 
 ## Preprocessing Notes
 

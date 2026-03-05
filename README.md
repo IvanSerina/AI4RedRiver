@@ -31,7 +31,7 @@ AI4RedRiver/
 ## Datasets
 
 ### In-Situ Station Data
-Daily observations from stations across the Red River basin (dam operations, rainfall, evaporation, temperature, water levels). Provided by Prof. Ngo Le An (Thuyloi University).
+Daily observations from stations across the Red River basin (dam operations, rainfall, evaporation, temperature, water levels, energy production). Provided by Prof. Ngo Le An (Thuyloi University).
 → [Datasets/available_data/in_situ/README.md](Datasets/available_data/in_situ/README.md)
 
 ### ERA5-Land Reanalysis
