@@ -1,4 +1,4 @@
-# ISRIC SoilGrids 2.0 (Capitanata Region)
+# ISRIC SoilGrids 2.0
 
 This directory contains soil property maps from the **ISRIC SoilGrids 2.0** dataset.
 
